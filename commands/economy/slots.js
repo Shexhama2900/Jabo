@@ -1,4 +1,4 @@
-const slotItems = ["🍇", "🍉", "🍌", "🍎", "<a:emoji_21:949757053826637945>"];
+const slotItems = ["🍇", "🍉", "🍌", "🍎", "💥"];
 const db = require("quick.db");
 const { MessageEmbed } = require('discord.js');  
 
