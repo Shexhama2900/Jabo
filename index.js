@@ -2,7 +2,7 @@ const dbd = require("dbd.js")
 
 const bot = new dbd.Bot({
   mobile: false, // you can change it to "true" if you want a mobile status
-  token: "TOKEN", // change TOKEN with your bot token
+  token: "NzkxODU2NzU3ODQ0NDc1OTE0.X-VQEw.eXoA7MNUrZZvt4DSsbezw3vU6dk", // change TOKEN with your bot token
   prefix: ['$getServerVar[prefix]', '<@!$clientID>', '<@$clientID>'] // you may change the bot's main prefix in vars.js
 })
 
@@ -19,8 +19,8 @@ bot.status({
 
     // FOR STREAMING STATUS USE THIS
     // bot.status({
-    // text: "text", 
-    // type: "STREAMING", 
+    // text: "y!help", 
+    // type: "PLAYING", 
     // url: "enter url/link"
     //   })
     // remove `//` in each side
