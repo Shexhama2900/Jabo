@@ -3,7 +3,7 @@ const dbd = require("dbd.js")
 const bot = new dbd.Bot({
   mobile: false, // you can change it to "true" if you want a mobile status
   token: "MTA1NjM0NTI5NDk5Mzg5OTU3MQ.GtFuTn.OnGWh6-hY66dbOO5Hd9rreiegRfX70UbQ07FPg", // change TOKEN with your bot token
-  prefix: ['$getServerVar[$]', '<@!$clientID>', '<@$clientID>'] // you may change the bot's main prefix in vars.js
+  prefix: ['$getServerVar[prefix]', '<@!$clientID>', '<@$clientID>'] // you may change the bot's main prefix in vars.js
 })
 
 bot.onMessage({
